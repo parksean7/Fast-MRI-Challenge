@@ -1,0 +1,12 @@
+python run/reconstruct_expert.py \
+  -b 1 \
+  -n 'brain_expert' \
+  -p '../Data/leaderboard' \
+  --train-phase 'phase_5' \
+  --model-path '../result/brain_expert/phase_5/model_epoch_1.pt' \
+  --sens-chans 4 \
+  --sens-pools 4 \
+  --num-cascades 8 \
+  --chans 20 \
+  --pools 4 \
+  --n-buffer 4
